@@ -68,7 +68,10 @@
                     <h1 class="fs-5 fw-bold text-dark mb-1">Daftar Produk</h1>
                     <p class="fs-6 text-muted mb-0">Kelola data produk, gambar menu, harga, dan stok barang.</p>
                 </div>
+                <div class="d-flex justify-content-start align-items-center gap-2">
                 <a href="{{ route('produkmenu.create') }}" class="btn btn-primary btn-sm">Tambah Produk</a>
+                <a href="{{ url('/') }}" class="btn btn-primary btn-sm">Lihat Menu</a>
+                </div>
             </div>
 
             <div class="table-responsive">
